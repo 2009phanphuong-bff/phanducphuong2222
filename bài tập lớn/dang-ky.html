@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+    <title>Đăng Ký - Thế Giới Trang Phục</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">THEGIOITRANGPHUC</a>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                    <li><a href="dia-diem.html">Bộ sưu tập</a></li>
+                    <li><a href="lien-he.html">Liên hệ</a></li>
+                    <li><a href="dang-ky.html" class="btn-signup active">Đăng ký</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>ĐĂNG KÝ THÀNH VIÊN</h1>
+            <p>Tham gia cùng chúng tôi để nhận nhiều ưu đãi đặc biệt</p>
+        </div>
+    </section>
+
+    <!-- Signup Section -->
+    <section class="signup">
+        <div class="container">
+            <div class="signup-container">
+                <div class="signup-form">
+                    <h2>TẠO TÀI KHOẢN MỚI</h2>
+                    
+                    <form id="signupForm">
+                        <div class="form-group">
+                            <label for="fullname">Họ và tên <span class="required">*</span></label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email <span class="required">*</span></label>
+                            <input type="email" id="email" name="email" placeholder="Nhập địa chỉ email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="password">Mật khẩu <span class="required">*</span></label>
+                            <input type="password" id="password" name="password" placeholder="Nhập mật khẩu (ít nhất 6 ký tự)" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="confirm-password">Xác nhận mật khẩu <span class="required">*</span></label>
+                            <input type="password" id="confirm-password" name="confirm-password" placeholder="Nhập lại mật khẩu" required>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="terms" name="terms" required>
+                            <label for="terms">Tôi đồng ý với <a href="#">điều khoản sử dụng</a> và <a href="#">chính sách bảo mật</a> <span class="required">*</span></label>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Đăng ký nhận thông tin khuyến mãi qua email</label>
+                        </div>
+
+                        <button type="submit" class="btn-primary btn-block">ĐĂNG KÝ</button>
+                    </form>
+
+                    <div class="signup-footer">
+                        <p>Đã có tài khoản? <a href="#">Đăng nhập ngay</a></p>
+                    </div>
+
+                    <div class="signup-social">
+                        <p>Hoặc đăng ký với</p>
+                        <div class="social-buttons">
+                            <a href="#" class="social-btn facebook">
+                                <i class="fab fa-facebook-f"></i> Facebook
+                            </a>
+                            <a href="#" class="social-btn google">
+                                <i class="fab fa-google"></i> Google
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="signup-image">
+                    <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Đăng ký thành viên">
+                    <div class="signup-benefits">
+                        <h3>LỢI ÍCH THÀNH VIÊN</h3>
+                        <ul>
+                            <li><i class="fas fa-check"></i> Tích điểm đổi quà</li>
+                            <li><i class="fas fa-check"></i> Giảm giá 10% cho đơn đầu tiên</li>
+                            <li><i class="fas fa-check"></i> Miễn phí vận chuyển</li>
+                            <li><i class="fas fa-check"></i> Ưu đãi sinh nhật</li>
+                            <li><i class="fas fa-check"></i> Xem trước bộ sưu tập mới</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>THẾ GIỚI TRANG PHỤC</h3>
+                    <p>Mang đến những thiết kế thời trang độc đáo và đẳng cấp nhất.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>LIÊN KẾT</h3>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="dia-diem.html">Bộ sưu tập</a></li>
+                        <li><a href="lien-he.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>HỖ TRỢ</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>LIÊN HỆ</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Đường Thời Trang, Quận 1, TP.HCM</li>
+                        <li><i class="fas fa-phone"></i> 0123 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@thegioitrangphuc.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 THẾ GIỚI TRANG PHỤC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <button class="scroll-top" id="scrollTop" title="Lên đầu trang">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

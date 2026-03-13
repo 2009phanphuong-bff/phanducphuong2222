@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ Sưu Tập - Thế Giới Trang Phục</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="index.html">Thế Giới <span>Trang Phục</span></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Trang chủ</a></li>
+                    <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                    <li><a href="dia-diem.html" class="active">Bộ sưu tập</a></li>
+                    <li><a href="lien-he.html">Liên hệ</a></li>
+                    <li><a href="dang-ky.html" class="btn-signup">Đăng ký</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Bộ Sưu Tập</h1>
+            <p>Khám phá những thiết kế độc đáo và mới nhất</p>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label for="category">Danh mục:</label>
+                    <select id="category">
+                        <option value="all">Tất cả</option>
+                        <option value="nam">Thời trang nam</option>
+                        <option value="nu">Thời trang nữ</option>
+                        <option value="phu-kien">Phụ kiện</option>
+                        <option value="bst">BST Đặc biệt</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="sort">Sắp xếp:</label>
+                    <select id="sort">
+                        <option value="newest">Mới nhất</option>
+                        <option value="price-asc">Giá: Thấp đến cao</option>
+                        <option value="price-desc">Giá: Cao đến thấp</option>
+                        <option value="popular">Phổ biến nhất</option>
+                    </select>
+                </div>
+                <div class="filter-search">
+                    <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products">
+        <div class="container">
+            <div class="product-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sản phẩm 1">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Áo Sơ Mi Nam Cao Cấp</h3>
+                        <p class="product-category">Thời trang nam</p>
+                        <p class="product-price">1.250.000₫</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1539008835657-9e8e9680c956?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sản phẩm 2">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Đầm Dạ Hội Sang Trọng</h3>
+                        <p class="product-category">Thời trang nữ</p>
+                        <p class="product-price">2.890.000₫</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sản phẩm 3">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Túi Xách Da Cao Cấp</h3>
+                        <p class="product-category">Phụ kiện</p>
+                        <p class="product-price">1.850.000₫</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sản phẩm 4">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Áo Khoác Thu Đông</h3>
+                        <p class="product-category">BST Đặc Biệt</p>
+                        <p class="product-price">2.450.000₫</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1556905055-8f358a7a47b2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sản phẩm 5">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Quần Jean Cao Cấp</h3>
+                        <p class="product-category">Thời trang nam</p>
+                        <p class="product-price">990.000₫</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1485968571000-87d9b1a1c6af?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sản phẩm 6">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Giày Cao Gót Thời Trang</h3>
+                        <p class="product-category">Phụ kiện</p>
+                        <p class="product-price">1.650.000₫</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1551232864-3f0890e580d9?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sản phẩm 7">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Áo Thun Basic</h3>
+                        <p class="product-category">Thời trang nam</p>
+                        <p class="product-price">450.000₫</p>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1582418702059-97ebafb35d09?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Sản phẩm 8">
+                        <div class="product-overlay">
+                            <button class="btn-add-cart"><i class="fas fa-shopping-cart"></i> Thêm vào giỏ</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chân Váy Công Sở</h3>
+                        <p class="product-category">Thời trang nữ</p>
+                        <p class="product-price">890.000₫</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#"><i class="fas fa-chevron-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Thế Giới Trang Phục</h3>
+                    <p>Mang đến những thiết kế thời trang độc đáo và đẳng cấp nhất.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Liên Kết</h3>
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+                        <li><a href="dia-diem.html">Bộ sưu tập</a></li>
+                        <li><a href="lien-he.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Hỗ Trợ</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Hướng dẫn mua hàng</a></li>
+                        <li><a href="#">Thanh toán</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Liên Hệ</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Đường Thời Trang, Quận 1, TP.HCM</li>
+                        <li><i class="fas fa-phone"></i> 0123 456 789</li>
+                        <li><i class="fas fa-envelope"></i> info@thegioitrangphuc.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Thế Giới Trang Phục. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
